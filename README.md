@@ -12,8 +12,8 @@ conda env create -f [EmotionalMario].yml
 ### 3. put our trained data in tessdata folder
 
 ### 4. setting environment variables
-a. TESSDATA_PREFIX
+a. TESSDATA_PREFIX  
 b. %TESSDATA%
 
-###5. run the code
+### 5. run the code
 
