@@ -16,8 +16,9 @@ you are able to find the tesseract execution file by input this:
 ```
 where tesseract
 ```
-example output : "C:\Users\tronu\Anaconda3\envs\EmotionalMario\Library\bin\tesseract.exe" <-- 之後改掉  
-you should put this path in line 23 of our code  
+example output : "C:\Users\tronu\Anaconda3\envs\EmotionalMario\Library\bin\tesseract.exe"  
+*note : if you have already installed tesseract, there can be not 1 path in output. just pick up one under our "EmotionalMario" env.
+you should put this path in line 23 of our code.  
 it will look like 
 pytesseract.pytesseract.tesseract_cmd = [tesseract execution file path]  
 [image] <-- 之後加
