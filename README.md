@@ -2,16 +2,16 @@
 
 > evironment setting
 
-###1. create conda env
+### 1. create conda env
 ```
 conda env create -f [EmotionalMario].yml
 ```
 
-###2. find where the tesseract execution file is in and paste it into the code
+### 2. find where the tesseract execution file is in and paste it into the code
 
-###3. put our trained data in tessdata folder
+### 3. put our trained data in tessdata folder
 
-###4. setting environment variables
+### 4. setting environment variables
 a. TESSDATA_PREFIX
 b. %TESSDATA%
 
