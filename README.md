@@ -22,12 +22,16 @@ it will look like
 pytesseract.pytesseract.tesseract_cmd = [tesseract execution file path]  
 [image] <-- 之後加
 
-*if you can not find the path by instruction above, try to install by this:
+*if you can not find the path by instruction above, try to install by using this:
 ```
  conda install -c conda-forge pytesseract
 ```
 ```
  conda install -c conda-forge tesseract
+```
+and find the path again
+```
+where tesseract
 ```
 
 ### 3. put our trained data in tessdata folder
