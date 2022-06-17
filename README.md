@@ -36,22 +36,22 @@ where tesseract
 
 ### 3. put our trained data in tessdata folder
 you can find where your env folder is at by using the output above.  
-like "C:\Users\tronu\Anaconda3\envs\EmotionalMario\Library\bin\tesseract.exe", you can enter "C:\Users\tronu\Anaconda3\envs\EmotionalMario",
-and you will see a "share" folder, enter it
+For example, if the path is "C:\Users\tronu\Anaconda3\envs\EmotionalMario\Library\bin\tesseract.exe", you can enter "C:\Users\tronu\Anaconda3\envs\EmotionalMario",
+and you will see a "share" folder, enter it.
 [image]
 then you will see a "tessdata" folder, just **put our trained data "mario.traineddata" into that folder**.
 [image]
 and you should remember or copy the path of tessdata, which will be used in step 4.
-example path: "C:\Users\tronu\Anaconda3\envs\EmotionalMario\share\tessdata"
+example path: "**C:\Users\tronu\Anaconda3\envs\EmotionalMario\share\tessdata**"
 
 ### 4. setting environment variables
 you can search in your computer using "environment variables" or "環境變數" as key word.
 click "環境變數".
 a. TESSDATA_PREFIX  
-    add a system variable "TESSDATA_PREFIX" which value is the path you copied in step 3.  
+    add a system variable "**TESSDATA_PREFIX**" which value is the path you copied in step 3.  
     [image]
 b. %TESSDATA_PREFIX%
-    and double click , or just edit the system variable "Path" by adding a value "%TESSDATA_PREFIX%"
+    and double click , or just edit the system variable "Path" by adding a value "**%TESSDATA_PREFIX%**"
 
 ### 5. run the code
 if you have completed all the step above, you can run our code by this:
