@@ -13,8 +13,10 @@ conda activate EmotionalMario
 ### 2. find where the tesseract execution file is in and paste it into the code
 after you create and activate conda env, pytesseract and tesseract should have been installed now in your env. 
 first, check if you have the tesseract in your env by this:  
-
-you are able to find the tesseract execution file by input this: 
+```
+tesseract -h
+```
+and you are able to find the tesseract execution file by input this: 
 ```
 where tesseract
 ```
