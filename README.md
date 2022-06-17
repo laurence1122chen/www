@@ -46,10 +46,10 @@ and you should remember or copy the path of tessdata, which will be used in step
 example path: "**C:\Users\tronu\Anaconda3\envs\EmotionalMario\share\tessdata**"
 
 ### 4. setting environment variables
-you can search in your computer using "environment variables" or "環境變數" as key word.
-![](https://i.imgur.com/5Syi5fk.png)
-click "環境變數".
-![](https://i.imgur.com/s4pBWpt.png)
+you can search in your computer using "environment variables" or "環境變數" as key word.  
+![](https://i.imgur.com/5Syi5fk.png)  
+click "環境變數".  
+![](https://i.imgur.com/s4pBWpt.png)  
 a. TESSDATA_PREFIX  
     add a system variable "**TESSDATA_PREFIX**" which value is the path you copied in step 3.  
     ![](https://i.imgur.com/grNR2Bm.png)
