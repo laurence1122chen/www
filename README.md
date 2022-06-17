@@ -24,8 +24,8 @@ example output : "C:\Users\tronu\Anaconda3\envs\EmotionalMario\Library\bin\tesse
 you should put this path in line 23 of our code.  
 *note : if you have already installed tesseract, there can be not 1 path in output. just pick up one under our "EmotionalMario" env.  
 it will look like:   
-pytesseract.pytesseract.tesseract_cmd = r'[tesseract execution file path]' 
-![](https://i.imgur.com/qLYUmbW.png =300x)  
+pytesseract.pytesseract.tesseract_cmd = r'[tesseract execution file path]'   
+![](https://i.imgur.com/qLYUmbW.png)  
 
 *if you can not find the path by instruction above, try to install by using this:
 ```
