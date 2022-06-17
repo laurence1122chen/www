@@ -37,7 +37,7 @@ and find the path again
 where tesseract
 ```
 
-reference: [https://pythonforundergradengineers.com/how-to-install-pytesseract.html](https://pythonforundergradengineers.com/how-to-install-pytesseract.html)  
+if our description is not clear enough, reference this: [https://pythonforundergradengineers.com/how-to-install-pytesseract.html](https://pythonforundergradengineers.com/how-to-install-pytesseract.html)  
 
 ### 3. put our trained data in tessdata folder
 you can find where your env folder is at by using the output above.  
