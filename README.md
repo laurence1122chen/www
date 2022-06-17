@@ -41,10 +41,25 @@ and you will see a "share" folder, enter it
 [image]
 then you will see a "tessdata" folder, just **put our trained data "mario.traineddata" into that folder**.
 [image]
+and you should remember or copy the path of tessdata, which will be used in step 4.
+example path: "C:\Users\tronu\Anaconda3\envs\EmotionalMario\share\tessdata"
 
 ### 4. setting environment variables
+you can search in your computer using "environment variables" or "環境變數" as key word.
+click "環境變數".
 a. TESSDATA_PREFIX  
-b. %TESSDATA%
+    add a system variable "TESSDATA_PREFIX" which value is the path you copied in step 3.  
+    [image]
+b. %TESSDATA_PREFIX%
+    and double click , or just edit the system variable "Path" by adding a value "%TESSDATA_PREFIX%"
 
 ### 5. run the code
+if you have completed all the step above, you can run our code by this:
+```
+python model.py -p [path of the "participants" folder] -i [number of participant] -o [output file path]
+```
+just similar to baseline.py.
+here is an example:
+**python model.py -p C:\Users\tronu\OneDrive\桌面\toadstool\toadstool\participants -i 0 -o C:\Users\tronu\OneDrive\桌面\ouput_folder**
+and you will be able to see the csv ouput file in [output file path]
 
